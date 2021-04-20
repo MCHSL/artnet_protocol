@@ -51,7 +51,7 @@ impl Default for Output {
 
 #[derive(Default)]
 pub struct PaddedData {
-    inner: Vec<u8>,
+    pub inner: Vec<u8>,
 }
 
 impl PaddedData {
